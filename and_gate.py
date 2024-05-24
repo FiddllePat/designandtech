@@ -12,15 +12,7 @@ def count_high_pins(pins):
 
 while True:
     if count_high_pins(input_pins) >= 2:
-        pixel[0] = (0, 255, 0)
-        pixel.write()
-        time.sleep(1)
-
-        pixel[0] = (0, 0, 255)
-        pixel.write()
-        time.sleep(1)
-        
-        pixel[0] = (0, 255, 0)
+        pixel[0] = (84, 0, 159)
         pixel.write()
         time.sleep(1)
     else:
